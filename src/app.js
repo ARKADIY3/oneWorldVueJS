@@ -12,9 +12,6 @@ const App= {
         }
     },
     methods:{
-        // inputChangeHandler(event){
-        //     this.inputValue = event.target.value
-        // },
         addNewNote(){
             if(this.inputValue !==''){
                 this.notes.push(this.inputValue)
@@ -36,3 +33,4 @@ const App= {
 }
 
 Vue.createApp(App).mount('#app')
+Vue.createApp(App).mount('#app1')
