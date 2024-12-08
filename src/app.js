@@ -1,6 +1,7 @@
 const App= {
     data(){
         return{
+            counter: 0,
             title:'Список заметок',
             placeholderString:'Введите текст',
             inputValue:'',
